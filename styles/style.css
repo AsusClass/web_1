@@ -1,0 +1,31 @@
+html {
+	
+	font-size: 25px; /* px 表示 “像素（pixels）”: 这个基础字号现在高10像素 */
+	font-family: 'Shrikhand', cursive; /* 剩下的部分是你从 Google fonts 上获取的输出 */
+}
+
+h1 {
+	font-size:60px;
+	text-align:center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-shadow: 3px 3px 1px black;
+ }
+p, li {
+	font-size:16px;
+	line-height:1.5;
+	letter-spacing:0.7px;
+ }
+ 
+ body {
+	width: 1600px;
+	margin: 0 auto ; /* 上下  和右左*/
+	background-color: #3FAEBF;
+	padding: 0 0 200px 0; /*上、右、下、左*/
+	border: 3px solid gray; /*3像素的黑色实线边框*/
+ }
+ img {
+  display: block;
+  margin: 0 auto;
+}
